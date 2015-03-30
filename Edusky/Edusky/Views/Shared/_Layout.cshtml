@@ -67,9 +67,11 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    @{
-        Html.RenderPartial("/Views/Common/_HeaderPartial.cshtml");
-    }
+    <div id="header1">
+        @{
+            Html.RenderPartial("/Views/Common/_HeaderPartial.cshtml");
+        }
+    </div>
     <div style="padding-bottom:20px; margin:0px; font-family:Arial, Verdana;background-color:#fff;">
         @{
             Html.RenderPartial("/Views/Common/_SliderPartial.cshtml");
@@ -77,10 +79,11 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Contoso University</p>
-        </footer>
+    </div>
+    <div id="footer1">
+        @{
+            Html.RenderPartial("/Views/Common/_Footerpartial.cshtml");  
+         }
     </div>
 
     @Scripts.Render("~/bundles/jquery")

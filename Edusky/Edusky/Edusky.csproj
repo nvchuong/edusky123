@@ -223,6 +223,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\images\01.jpg" />
+    <Content Include="Content\images\header_bg.gif" />
     <Content Include="Content\images\nav_trangchu.png" />
     <Content Include="Content\jssor\img\1920\blue.jpg" />
     <Content Include="Content\jssor\img\1920\purple.jpg" />
