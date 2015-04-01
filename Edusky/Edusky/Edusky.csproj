@@ -223,8 +223,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\images\01.jpg" />
+    <Content Include="Content\images\footer-bg.jpg" />
     <Content Include="Content\images\header_bg.gif" />
+    <Content Include="Content\images\index.gif" />
     <Content Include="Content\images\nav_trangchu.png" />
+    <Content Include="Content\images\Untitled.png" />
     <Content Include="Content\jssor\img\1920\blue.jpg" />
     <Content Include="Content\jssor\img\1920\purple.jpg" />
     <Content Include="Content\jssor\img\1920\red.jpg" />
@@ -548,7 +551,6 @@
     <Content Include="Content\jssor\js\jssor.js" />
     <Content Include="Content\jssor\js\jssor.slider.js" />
     <Content Include="Content\jssor\js\jssor.slider.mini.js" />
-    <Content Include="Content\scripts\JavaScript1.js" />
     <Content Include="Content\scripts\utils.js" />
     <Content Include="Content\StyleSheet1.css" />
     <Content Include="Content\themes\base\accordion.css" />
@@ -663,6 +665,7 @@
     <Content Include="Views\Shared\_html5shiv.cshtml" />
     <Content Include="Views\Common\_SliderPartial.cshtml" />
     <Content Include="Views\Shared\_LayoutOthers.cshtml" />
+    <Content Include="Views\Home\Introduce.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

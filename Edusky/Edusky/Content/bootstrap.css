@@ -4381,7 +4381,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color:transparent;
-  background: url(images/header_bg.gif) repeat top;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4891,6 +4890,7 @@ a.badge:focus {
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #ddd;
+  min-height: 400px;
   border-radius: 12px;
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;

@@ -15,7 +15,7 @@ namespace Edusky.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Introduce()
         {
             ViewBag.Message = "Your app description page.";
 
