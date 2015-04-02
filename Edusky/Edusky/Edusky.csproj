@@ -185,6 +185,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -221,7 +222,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\dashboard.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\scripts\holder.js" />
     <Content Include="Content\images\01.jpg" />
     <Content Include="Content\images\footer-bg.jpg" />
     <Content Include="Content\images\header_bg.gif" />
@@ -551,7 +554,10 @@
     <Content Include="Content\jssor\js\jssor.js" />
     <Content Include="Content\jssor\js\jssor.slider.js" />
     <Content Include="Content\jssor\js\jssor.slider.mini.js" />
+    <Content Include="Content\scripts\ie-emulation-modes-warning.js" />
+    <Content Include="Content\scripts\ie10-viewport-bug-workaround.js" />
     <Content Include="Content\scripts\utils.js" />
+    <Content Include="Content\signin.css" />
     <Content Include="Content\StyleSheet1.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
@@ -666,6 +672,9 @@
     <Content Include="Views\Common\_SliderPartial.cshtml" />
     <Content Include="Views\Shared\_LayoutOthers.cshtml" />
     <Content Include="Views\Home\Introduce.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
